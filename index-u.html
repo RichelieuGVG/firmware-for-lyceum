@@ -103,31 +103,7 @@
 
 <br><br>
 			
-					<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-					    <script type="text/javascript">
-					      google.charts.load('current', {'packages':['bar']});
-					      google.charts.setOnLoadCallback(drawChart);
-
-					      function drawChart() {
-					        var data = google.visualization.arrayToDataTable([
-					          ['Things', 'Salary', 'Real cost'],
-					          ['Car', 550000, 2500000],
-					          ['Realty',550000, 14000000]
-					        ]);
-
-					        var options = {
-					          chart: {
-					            title: 'Comparison of salaries and the value of some goods.',
-					            subtitle: 'Cars, realties',
-					          }
-					        };
-
-					        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
-
-					        chart.draw(data, google.charts.Bar.convertOptions(options));
-					      }
-					    </script>
-					<div id="columnchart_material" style="width: 100%; height: 350px;"></div>
+					
 
 
 
@@ -164,7 +140,7 @@
 					        chart.draw(data, options);
 					      }
 					    </script>
-					<div id="piechart" style="width: 120%; height: 500px;"></div>
+					<div id="piechart" style="width: 110%; height: 500px;"></div>
 
 
 
@@ -269,7 +245,7 @@
 					        chart.draw(data, options);
 					      }
 					    </script>
-					<div id="piechart1" style="width: 110%; height: 200px;"></div>
+					<div id="piechart1" style="width: 100%; height: 200px;"></div>
 				<p>Rating: <br><i>Bad person</i><svg id='cat'  xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
 						  <g id="Ellipse_12" data-name="Ellipse 12" fill="red" stroke="#000" stroke-width="1">
 						    <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
