@@ -14,7 +14,7 @@ html, body{
 #layout{
 	
 	width: 99%;
-	height: 2780px;
+	height: 3250px;
 
 }
 #smile{
@@ -142,10 +142,6 @@ p{
 	color: #494848;
 }
 #columnchart_material{
-	margin-left: 10px;
-
-}
-#columnchart_material1{
 	margin-left: 10px;
 
 }
